@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Create a custom style for the form element */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eaeaea;
+  border-radius: .25rem;
+  margin: 2rem auto;
+  padding: 2rem 4rem;
+  max-width: 32rem;
+}
+
+.bloco {
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+/* Style the label elements */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style the input and textarea elements */
+input,
+textarea {
+  display: block;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Style the submit button */
+button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1{
+  margin-bottom: 30px;
+}
+
+/* Style the paragraph element */
+p {
+  padding-top: 10px;
+  color: #353535;
+}
